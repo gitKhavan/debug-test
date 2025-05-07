@@ -2,7 +2,7 @@
   become: true
   tasks:
     - name: Navigate to directory containing docker-compose.yml
-      shell: cd devops-assessment
+      shell: cd devops-test
       args:
         chdir: /home/ec2-user
 
